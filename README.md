@@ -1,6 +1,7 @@
 # BÀI TẬP MÔN AN TOÀN VÀ BẢO MẬT THÔNG TIN
 
-- **Sinh viên thực hiện:** Hoàng Đình Hiệu (`HoangDinhHieu`)
+- **Sinh viên thực hiện:** Hoàng Đình Hiếu 
+- **MSSV:** K235480106025
 - **Môi trường:** C# .NET 8.0 (Windows Forms)
 - **Kiến trúc Solution (`ATBMTT.slnx`):**
   - `libSecurity`: Thư viện xử lý thuật toán mật mã lõi (`MyAES`, `MyRSA`, `ASN.1 Parser`, `SHA-256`, `RSA-PSS`).
@@ -9,7 +10,7 @@
 
 ---
 
-## 📌 BÀI TẬP 1: MÃ HOÁ ĐỐI XỨNG AES-256-CBC
+## BÀI TẬP 1: MÃ HOÁ ĐỐI XỨNG AES-256-CBC
 
 ### 1. Các tính năng đã hoàn thiện:
 1. **Sinh khóa AES:** Tự động sinh khóa ngẫu nhiên 256-bit (32 bytes) chuẩn mã hóa an toàn cao nhất, hiển thị dưới dạng Base64.
@@ -32,7 +33,7 @@
 
 ---
 
-## 📌 BÀI TẬP 2: MÃ HOÁ BẤT ĐỐI XỨNG RSA & CHỮ KÝ SỐ
+## BÀI TẬP 2: MÃ HOÁ BẤT ĐỐI XỨNG RSA & CHỮ KÝ SỐ
 
 ### 1. Các tính năng đã hoàn thiện:
 1. **Sinh cặp khóa RSA:** Tùy chọn 1024, 2048, 3072, 4096 bits.
@@ -64,7 +65,7 @@
 
 ---
 
-## 🚀 HƯỚNG DẪN CHẠY BÀI TẬP TRÊN MÁY TÍNH
+## HƯỚNG DẪN CHẠY BÀI TẬP TRÊN MÁY TÍNH
 
 1. Mở file solution `ATBMTT.slnx` bằng **Visual Studio 2022** (hoặc mở từng project `BaiTap1_AES.csproj`, `BaiTap2_RSA.csproj`).
 2. Hoặc khởi chạy nhanh thông qua terminal:
